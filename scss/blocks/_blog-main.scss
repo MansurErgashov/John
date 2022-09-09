@@ -1,0 +1,121 @@
+.blog-main__week {
+}
+.week {
+    padding-top: 31px;
+    padding-bottom: 53px;
+}
+.week__container {
+}
+.week__heading {
+    font-family: 'Heebo';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+
+}
+.week__list {
+    @include list-unstyled;
+}
+.week__item {
+    &:not(:last-child) {
+        margin-bottom: 32px;
+    }
+}
+.week__item-heading {
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+.week__item-wrapper {
+}
+.week__item-date {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 16px;
+}
+.week__item-date-year {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #21243D;
+}
+.week__item-date-box {
+    height: 21px;
+    width: 1px;
+    background-color: #000000;
+}
+.week__item-date-sp {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+.week__item-desc {
+    max-width: 682px;
+    width: 100%;
+    margin: 6px 0 29px 0;
+    padding: 0;
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+@include breakpoint-down(620px) {
+    .week__heading {
+        font-size: 37px;
+    }
+    .week__item-heading {
+        font-size: 28px;
+    }
+
+    .week__item-date-year {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .week__item-date-sp {
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
+@include breakpoint-down(375px) {
+    .week__heading {
+        font-size: 30px;
+    }
+    .week__item-heading {
+        font-size: 26px;
+    }
+    .week__item-date {
+        gap: 8px;
+    }
+    .week__item-date-year {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .week__item-date-sp {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@include breakpoint-down(300px) {
+    .week__item-heading {
+        font-size: 24px;
+    }
+    .week__item-date-year {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .week__item-date-sp {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

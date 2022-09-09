@@ -1,0 +1,126 @@
+.detail-main__detail {
+}
+.detail {
+    padding-top: 10px;
+    padding-bottom: 27px;
+}
+.detail__container {
+}
+.detail__text {
+    margin: 0;
+    padding: 0;
+    max-width: 506px;
+    width: 100%;
+    font-family: 'Heebo';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+    color: #21243D;
+}
+.detail__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin-top: 30px;
+}
+.detail__wrapper-year {
+    font-family: 'Heebo';
+    padding: 0 10px 0 10px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 26px;
+    background: #FF7C7C;
+    border-radius: 16px;
+    color: #FFFFFF;
+}
+.detail__wrapper-text {
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #21243D;
+}
+.detail__desc {
+    margin: 17px 0 0 0;
+    padding: 0;
+    max-width: 681px;
+    width: 100%;
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+
+}
+.detail__img1 {
+    margin-top: 46px;
+    display: block;
+}
+.detail__heading1 {
+    margin: 54px 0 0 0;
+    padding: 0;
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 60px;
+    color: #21243D;
+}
+.detail__heading2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 60px;
+    color: #21243D;
+}
+.detail__desc2 {
+    margin: -10px 0 0 0;
+    padding: 0;
+    max-width: 681px;
+    width: 100%;
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.detail__img2 {
+    margin-top: 30px;
+    display: block;
+}
+.detail__img3 {
+    margin-top: 27px;
+    display: block;
+}
+@include breakpoint-down(620px) {
+    .detail__text {
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .detail__wrapper-text {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .detail__heading1 {
+        font-size: 28px;
+    }
+    .detail__heading2 {
+        font-size: 22px;
+    }
+}
+@include breakpoint-down(375px) {
+    .detail__text {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .detail__heading1 {
+        font-size: 26px;
+    }
+    .detail__heading2 {
+        font-size: 20px;
+    }
+}

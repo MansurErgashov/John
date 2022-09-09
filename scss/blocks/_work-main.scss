@@ -1,0 +1,16 @@
+.featured__heading--work {
+    margin: 25px 0 0 0;
+    padding: 0;
+    font-family: 'Heebo';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+@include breakpoint-down(620px) {
+    .featured__heading--work {
+        font-size: 38px;
+        line-height: 60px;
+    } 
+}
